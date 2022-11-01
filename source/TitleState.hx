@@ -640,14 +640,14 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					createCoolText(['Psych Forever Engine by'], 15);
+					createCoolText(['PbtEngine para Siempre!'], 15);
 				case 4:
-					addMoreText('Classic1926', 15);
+					addMoreText('Entra a PbtServers', 15);
 				case 5:
 					deleteCoolText();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Psych Engine Original'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
@@ -668,11 +668,11 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Psych');
+					addMoreText('Pbt');
 				case 15:
-					addMoreText('Forever');
-				case 16:
 					addMoreText('Engine');
+				case 16:
+					addMoreText('v1');
 
 				case 17:
 					skipIntro();

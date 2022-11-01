@@ -138,7 +138,7 @@ class ClientPrefs {
 		FlxG.save.data.controllerMode = controllerMode;
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
 		FlxG.save.data.pauseMusic = pauseMusic;
-		FlxG.save.data.checkForUpdates = checkForUpdates;
+		FlxG.save.data.checkForUpdates = false;
 
 		// modded specific
 		FlxG.save.data.skipintrosplash = skipintrosplash;
@@ -301,10 +301,6 @@ class ClientPrefs {
 		if (FlxG.save.data.mute != null)
 		{
 			FlxG.sound.muted = FlxG.save.data.mute;
-		}
-		if (FlxG.save.data.checkForUpdates != null)
-		{
-			checkForUpdates = FlxG.save.data.checkForUpdates;
 		}
 
 		var save:FlxSave = new FlxSave();
