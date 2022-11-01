@@ -1,4 +1,4 @@
-# Friday Night Funkin' - PbtEngine (Fork of Psych-Forever-Engine)
+# Friday Night Funkin' - PbtEngine (Fork of Psych & Forever)
 
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
