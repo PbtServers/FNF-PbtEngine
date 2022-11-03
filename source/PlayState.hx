@@ -1235,7 +1235,7 @@ class PlayState extends MusicBeatState
 			creditsWatermark.cameras = [camHUD];
 		}
 
-		engineBar = new FlxText(0, FlxG.height - 30, 0, "Psych Forever BETA v" + MainMenuState.psychforeverVersion + " (PE v" + MainMenuState.psychEngineVersion + ")", 16);
+		engineBar = new FlxText(0, FlxG.height - 30, 0, "PbtEngine v" + MainMenuState.psychforeverVersion, 16);
 		engineBar.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		engineBar.updateHitbox();
 		engineBar.x = FlxG.width - engineBar.width - 5;
